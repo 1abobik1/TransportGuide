@@ -138,6 +138,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\domain.h" />
     <ClInclude Include="header\geo.h" />
     <ClInclude Include="header\svg.h" />
   </ItemGroup>

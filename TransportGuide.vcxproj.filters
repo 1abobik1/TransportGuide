@@ -26,5 +26,8 @@
     <ClInclude Include="header\geo.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="header\domain.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
