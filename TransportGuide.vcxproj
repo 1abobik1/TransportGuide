@@ -136,11 +136,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\transport_catalogue.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\domain.h" />
     <ClInclude Include="header\geo.h" />
     <ClInclude Include="header\svg.h" />
+    <ClInclude Include="header\transport_catalogue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
