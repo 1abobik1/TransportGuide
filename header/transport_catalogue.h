@@ -47,6 +47,15 @@ namespace transport_catalogue {
         // если информации о расстоянии нет в каталоге - выбрасывает исключение
         int GetDistance(const std::string& stop_from, const std::string& stop_to) const;
 
+        // возвращает ссылку на маршруты в каталоге
+        const std::unordered_map<std::string_view, const domain::Route*>& GetRoutes() const;
+        // возвращает ссылку на остановки в каталоге
+        const std::unordered_map<std::string_view, const domain::Stop*>& GetStops() const;
+        const std::unordered_map<std::string_view, std::set<std::string_view>>& GetBusesOnStops() const;
+        // возвращает ссылку на расстояния между остановками
+        const std::unordered_map<std::string_view, std::unordered_map<std::string_view, int>>& GetDistances() const;
+
+
     private:
         // добавляет остановку в каталог
         void AddStop(domain::Stop stop) noexcept;
@@ -58,6 +67,13 @@ namespace transport_catalogue {
         const domain::Stop* FindStop(const std::string& stop_name) const;
         // возвращает указатель на маршрут по его имени
         // если маршрута нет в каталоге - выбрасывает исключение
+        const domain::Route* FindRoute(const std::string& route_name) const;
+        // возвращает расстояние от остановки 1 до остановки 2 в прямом направлении
+        // если информации о расстоянии нет в каталоге - выбрасывает исключение
+        int GetForwardDistance(const std::string& stop_from, const std::string& stop_to) const;
+        // считает общее расстояние по маршруту
+        // если нет информации о расстоянии между какой-либо парой соседних остановок - выбросит исключение
+        int CalculateRealRouteLength(const domain::Route* route) const;
     };
 
     // считает кол-во остановок по маршруту
