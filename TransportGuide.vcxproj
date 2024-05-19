@@ -144,6 +144,7 @@
     <ClInclude Include="header\geo.h" />
     <ClInclude Include="header\graph.h" />
     <ClInclude Include="header\json.h" />
+    <ClInclude Include="header\ranges.h" />
     <ClInclude Include="header\svg.h" />
     <ClInclude Include="header\transport_catalogue.h" />
   </ItemGroup>
