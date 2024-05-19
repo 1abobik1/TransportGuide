@@ -10,7 +10,8 @@ namespace geo {
     };
 
     bool operator==(const Coordinates& lhs, const Coordinates& rhs);
-
+		
     double ComputeDistance(Coordinates from, Coordinates to);
+
 
 } // namespace geo
