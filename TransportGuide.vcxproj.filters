@@ -41,5 +41,8 @@
     <ClInclude Include="header\json.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="header\graph.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
