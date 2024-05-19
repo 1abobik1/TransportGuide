@@ -49,6 +49,7 @@ namespace json {
         bool IsMap() const noexcept;
 
         // возвращает ссылку на ноду
+
         const Array& AsArray() const;
         const Dict& AsMap() const;
         bool AsBool() const;
@@ -59,6 +60,7 @@ namespace json {
         friend bool operator==(const Node& lhs, const Node& rhs) {
             return static_cast<NodeData>(lhs) == static_cast<NodeData>(rhs);
         }
+
         friend bool operator!=(const Node& lhs, const Node& rhs) {
             return !(lhs == rhs);
         }
