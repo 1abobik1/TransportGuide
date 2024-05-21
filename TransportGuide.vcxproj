@@ -138,6 +138,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\geo.cpp" />
     <ClCompile Include="source\json.cpp" />
+    <ClCompile Include="source\json_builder.cpp" />
     <ClCompile Include="source\transport_catalogue.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="header\geo.h" />
     <ClInclude Include="header\graph.h" />
     <ClInclude Include="header\json.h" />
+    <ClInclude Include="header\json_builder.h" />
     <ClInclude Include="header\ranges.h" />
     <ClInclude Include="header\svg.h" />
     <ClInclude Include="header\transport_catalogue.h" />
