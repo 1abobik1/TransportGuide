@@ -136,6 +136,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\geo.cpp" />
     <ClCompile Include="source\json.cpp" />
     <ClCompile Include="source\transport_catalogue.cpp" />
   </ItemGroup>
