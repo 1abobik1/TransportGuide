@@ -30,6 +30,9 @@
     <ClCompile Include="source\json_builder.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="source\json_reader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\svg.h">
@@ -54,6 +57,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="header\json_builder.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="header\json_reader.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
