@@ -154,9 +154,17 @@
     <ClInclude Include="header\map_renderer.h" />
     <ClInclude Include="header\ranges.h" />
     <ClInclude Include="header\router.h" />
+    <ClInclude Include="header\serialization.h" />
     <ClInclude Include="header\svg.h" />
     <ClInclude Include="header\transport_catalogue.h" />
     <ClInclude Include="header\transport_router.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="proto\graph.proto" />
+    <None Include="proto\map_renderer.proto" />
+    <None Include="proto\svg.proto" />
+    <None Include="proto\transport_catalogue.proto" />
+    <None Include="proto\transport_router.proto" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

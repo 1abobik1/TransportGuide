@@ -7,7 +7,7 @@
 #include "map_renderer.h"
 #include "transport_catalogue.h"
 #include "transport_router.h"
-#include "transport_catalogue.pb.h"
+#include "../proto/transport_catalogue.proto"
 
 namespace serialize {
 
