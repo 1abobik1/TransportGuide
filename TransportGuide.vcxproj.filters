@@ -36,6 +36,9 @@
     <ClCompile Include="source\map_renderer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="source\transport_router.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\svg.h">
@@ -69,6 +72,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="header\router.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="header\transport_router.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

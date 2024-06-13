@@ -142,6 +142,7 @@
     <ClCompile Include="source\json_reader.cpp" />
     <ClCompile Include="source\map_renderer.cpp" />
     <ClCompile Include="source\transport_catalogue.cpp" />
+    <ClCompile Include="source\transport_router.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\domain.h" />
@@ -155,6 +156,7 @@
     <ClInclude Include="header\router.h" />
     <ClInclude Include="header\svg.h" />
     <ClInclude Include="header\transport_catalogue.h" />
+    <ClInclude Include="header\transport_router.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
