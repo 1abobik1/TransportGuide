@@ -14,7 +14,7 @@ message RenderSettings {
 
     int32 bus_label_font_size = 5;
     svg_serialize.Point bus_label_offset = 6;
-
+    
     int32 stop_label_font_size = 7;
     svg_serialize.Point stop_label_offset = 8;
 
